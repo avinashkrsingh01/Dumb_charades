@@ -1,0 +1,77 @@
+/* Prevent body and html from scrolling */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  .game {
+    background-image: url("https://images.pexels.com/photos/15254147/pexels-photo-15254147/free-photo-of-cityscape-at-dawn.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;  /* Flexbox to center the content */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;  /* Ensure no scrollbars */
+  }
+  
+  .card {
+    background-color: rgb(174, 172, 172);
+    border-radius: 34px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.134);
+    padding: 60px;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .question {
+    font-size: 20px;
+    font-weight:600;
+    margin-bottom: 10px;
+    color: rgb(24, 26, 26);
+  }
+  .questionHead {
+    font-size: 26px;
+    font-weight:900;
+    margin-bottom: 10px;
+    color: rgb(145, 193, 171);
+    border: 2px solid black;
+    background-color: #283847;
+    border-radius: 40px;
+  }
+  
+  .hint {
+    font-size: 18px;
+    color: rgb(192, 2, 2);
+    margin-bottom: 5px;
+  }
+  
+  .inputField {
+    width: 50%;
+    margin-right: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #102d4d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 5px;
+  }
+  
+  .score {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+  }
